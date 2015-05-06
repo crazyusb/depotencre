@@ -4,7 +4,7 @@
 # Need to build two files, one for the workstation and one for the store
 #
 #
-%include fedora-live-workstation-fr_FR.ks
+%include /usr/share/spin-kickstarts/l10n/fedora-live-workstation-fr_FR.ks
 
 # Repo
 
@@ -30,6 +30,7 @@ owncloud-client
 #Gnome
 gnome-system-monitor
 gnome-tweak-tool
+gnome-shell-extension-user-theme
 
 
 #Android filesystem
