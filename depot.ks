@@ -9,8 +9,8 @@
 # Repo
 
 # Base ozon repo
-repo --name="Repository for Ozon OS" --baseurl=http://goodies.ozon-os.com/repo/$releasever/ --cost=1000
-
+#repo --name="Repository for Ozon OS" --baseurl=http://goodies.ozon-os.com/repo/$releasever/ --cost=1000
+repo --name="Local" --baseurl=file:///home/ben/repo
 # RPMFusion repos
 repo --name=rpmfusion-free --baseurl=http://download1.rpmfusion.org/free/fedora/releases/$releasever/Everything/$basearch/os
 repo --name=rpmfusion-free-updates --baseurl=http://download1.rpmfusion.org/free/fedora/updates/$releasever/$basearch
@@ -31,7 +31,9 @@ owncloud-client
 gnome-system-monitor
 gnome-tweak-tool
 gnome-shell-extension-user-theme
-
+gnome-shell-extension-apps-menu.noarch
+gnome-shell-extension-places-menu.noarch
+gnome-shell-extension-alternate-tab.noarch
 
 #Android filesystem
 libmtp
